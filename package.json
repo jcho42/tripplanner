@@ -1,0 +1,25 @@
+{
+  "name": "tripplanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcho42/tripplanner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcho42/tripplanner/issues"
+  },
+  "homepage": "https://github.com/jcho42/tripplanner#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
