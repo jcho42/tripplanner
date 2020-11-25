@@ -7,7 +7,7 @@ const markerImages = {
 };
 
 const addMarker = function (type, coordinates) {
-  const markerDomEl = document.createElement('div'); // Create a new, detached DIV
+  const markerDomEl = document.createElement('div');
   markerDomEl.style.width = '32px';
   markerDomEl.style.height = '39px';
   markerDomEl.style.backgroundImage = `url(${markerImages[type]})`;
